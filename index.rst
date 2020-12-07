@@ -182,15 +182,6 @@ PostgREST has a growing ecosystem of examples, libraries, and experiments. Here 
 * :ref:`eco_extensions`
 * :ref:`clientside_libraries`
 
-For helping with development, see the following page.
-
-* :doc:`Development <development>`
-
-.. toctree::
-   :caption: Development
-   :hidden:
-
-   development.rst
 
 Release Notes
 -------------
