@@ -53,7 +53,7 @@ When a pre-built binary does not exist for your system you can build the project
 
 You can build PostgREST from source with `Stack <https://github.com/commercialhaskell/stack>`_. It will install any necessary Haskell dependencies on your system.
 
-* `Install Stack <http://docs.haskellstack.org/en/stable/README.html#how-to-install>`_ for your platform
+* `Install Stack <https://docs.haskellstack.org/en/stable/README.html#how-to-install>`_ for your platform
 * Install Library Dependencies
 
   =====================  =======================================
@@ -282,7 +282,7 @@ Assuming your making modifications locally and then pushing to GitHub, it's easy
 
 1. Create a new app on Heroku
 2. In Settings add the following buildpack :code:`https://github.com/PostgREST/postgrest-heroku`
-3. Add the require Config Vars in Heroku (see https://github.com/PostgREST/postgrest/blob/master/app.json#L7-L57 for more details)
+3. Add the require Config Vars in Heroku (see https://github.com/PostgREST/postgrest/blob/master/app.json for more details)
 4. Modify your ``postgrest.conf`` file as required to match your Config Vars in Heroku
 5. Create your :code:`Procfile` and add :code:`./env-to-config ./postgrest postgrest.conf`
 6. Push your changes to GitHub

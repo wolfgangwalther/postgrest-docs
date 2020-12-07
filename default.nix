@@ -72,4 +72,12 @@ in
          | xargs -0 -n 1 -i \
            sh -c "grep \"{}\" $FILES > /dev/null || echo \"{}\""
       '';
+
+  linkcheck =
+    pkgs.writeShellScriptBin "postgrest-docs-linkcheck"
+      ''
+        set -euo pipefail
+
+        ${python}/bin/sphinx-build -b linkcheck . _build
+      '';
 }

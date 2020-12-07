@@ -8,7 +8,7 @@ PostgREST Documentation
 .. image:: https://img.shields.io/github/stars/postgrest/postgrest.svg?style=social
   :target: https://github.com/PostgREST/postgrest
 
-.. image:: https://img.shields.io/github/release/PostgREST/postgrest.svg
+.. image:: https://img.shields.io/github/v/release/PostgREST/postgrest.svg
   :target: https://github.com/PostgREST/postgrest/releases
 
 .. image:: https://img.shields.io/docker/pulls/postgrest/postgrest.svg
@@ -39,7 +39,7 @@ Sponsors
   :width:  13em
 
 .. image:: _static/retool.png
-  :target: https://tryretool.com/?utm_source=sponsor&utm_campaign=postgrest
+  :target: https://retool.com/?utm_source=sponsor&utm_campaign=postgrest
   :width:  13em
 
 Motivation
@@ -65,7 +65,7 @@ PostgREST has a focused scope. It works well with other tools like Nginx. This f
 Getting Support
 ----------------
 
-The project has a friendly and growing community. Join our `chat room <https://gitter.im/begriffs/postgrest>`_ for discussion and help. You can also report or search for bugs/features on the Github `issues <https://github.com/begriffs/postgrest/issues>`_ page.
+The project has a friendly and growing community. Join our `chat room <https://gitter.im/begriffs/postgrest>`_ for discussion and help. You can also report or search for bugs/features on the Github `issues <https://github.com/PostgREST/postgrest/issues>`_ page.
 
 .. toctree::
    :glob:
@@ -200,22 +200,18 @@ Here are some companies that use PostgREST in production.
 
 * `Sompani <https://www.sompani.com/>`_
 * `Datrium <https://www.datrium.com>`_
-* `Nimbus <https://nimbusforwork.com/>`_
+* `Nimbus <https://www.nimbusforwork.com/>`_
   - See how Nimbus uses PostgREST in `Paul Copplestone's blog post <https://paul.copplest.one/blog/nimbus-tech-2019-04.html>`_.
 * `Catarse <https://www.catarse.me/>`_
 * `Moat <https://moat.com/>`_
 * `Netwo <https://www.netwo.io/>`_
 * `Redsmin <https://www.redsmin.com/>`_
-* `Image-charts <https://image-charts.com/>`_
+* `Image-charts <https://www.image-charts.com/>`_
 * `MotionDynamic - Fast highly dynamic video generation at scale <https://api.motiondynamic.tech/>`_
 * `Drip Depot <https://www.dripdepot.com/>`_
-* `Convene <https://info.convene.thomsonreuters.com/en.html>`_ by Thomson-Reuters
-* `eGull <http://www.egull.co>`_
+* `eGull <https://www.egull.co>`_
 * `Elyios <https://elyios.com>`_
-* `Simply Connected Systems <https://www.simplyconnectedsystems.com/>`_
-
-.. * `OpenBooking <http://openbooking.ch>`_
-.. * `triggerFS - A realtime messaging and distributed trigger system <https://triggerfs.io/>`_
+* `OpenBooking <https://www.openbooking.ch>`_
 
 Testimonials
 ------------
